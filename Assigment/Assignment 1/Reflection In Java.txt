@@ -19,7 +19,8 @@ The following are their definitions:
 Why do we need reflection? 
 Reflection enables us to: 
 1. Examine an object's class at runtime. 
-2. Construct an object for a class at runtime. 3. Examine a class's field and method at runtime. 
+2. Construct an object for a class at runtime. 
+3. Examine a class's field and method at runtime. 
 4. Invoke any method of an object at runtime. 
 5. Change accessibility flag of Constructor, Method and Field.
  
