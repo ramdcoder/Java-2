@@ -29,8 +29,8 @@ Object of unknown type-->reflection-->Modify Structure and behaviour
 A Simple Example
 To see how reflection works, consider this simple example:
 
-   public class DumpMethods {
-      public static void main(String args[])
+public class DumpMethods {
+   public static void main(String args[])
       {
          try {
             Class c = Class.forName(args[0]);
@@ -38,7 +38,7 @@ To see how reflection works, consider this simple example:
             for (int i = 0; i < m.length; i++)
             System.out.println(m[i].toString());
          }
-         catch (Throwable e) {
+         catch (Throwable e){
             System.err.println(e);
          }
       }
